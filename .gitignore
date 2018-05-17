@@ -1,0 +1,11 @@
+spring-oauth2-jdbc/.gradle
+spring-oauth2-jdbc/.settings
+spring-oauth2-jdbc/bin
+spring-oauth2-jdbc/build
+spring-oauth2-jdbc/logs
+.classpath
+.factorypath
+.project
+spring-oauth2-resource/.gradle
+spring-oauth2-resource/.settings
+spring-oauth2-resource/bin

@@ -1,0 +1,22 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: spring-oauth2-jdbc
+  jpa:
+      show-sql: true
+      properties:
+        hibernate:
+          ddl-auto: none
+    
+datasource:
+  auth:
+    jdbc-url: jdbc:mysql://localhost:3306/auth?autoReconnect=true&useSSL=false
+    username: auth
+    password: auth
+    driver-class-name: com.mysql.jdbc.Driver
+    minimum-idle: 2
+    maximum-pool-size: 5
+    auto-commit: true
+    connection-test-query: SELECT 1
